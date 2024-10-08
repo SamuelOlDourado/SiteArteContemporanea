@@ -1,0 +1,262 @@
+body {
+    background-image: linear-gradient(to bottom right, #004d00, #99cc99, #4d4d00, #003300);
+    color: #3b3b3b;
+    margin: 0;
+    font-family: "Bell MT", serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titulo {
+    background: #006400; /* Verde escuro relacionado à natureza */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #4d8c57; /* Adiciona uma borda inferior verde mais clara */
+}
+
+.Fundo {
+    background-color: #f0f0e6; /* Tom de off-white, remetendo a materiais naturais */
+    margin: 2% 15%;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.Sobre, .Historia, .Brasil, .Impacto, .Responsavel, .Links, .container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Sobre p, .Historia p, .Brasil p, .Impacto p, .Responsavel p, .Links p, .container p {
+    text-align: justify;
+    margin: 1% 5%;
+    font-size: 18px;
+    color: #3b3b3b; /* Cor mais suave para leitura */
+}
+
+.Responsavel p, .Historia p {
+    background-color: #f9f9f9; /* Fundo levemente cinza para destaque */
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Sobre img, .Historia img, .Brasil img, .Responsavel img {
+    max-height: 70vh;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    margin: 1% 5%;
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Sobre img:hover, .Historia img:hover, .Brasil img:hover, .Responsavel img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Brasil a, .Links a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #3a5f0b; /* Verde musgo para links */
+    font-weight: bold;
+    padding: 10px 16px;
+    border: 2px solid #4d8c57; /* Verde mais claro para destaque */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Brasil a {
+    margin: 2% 5%;
+}
+
+.container a {
+    color: #3a5f0b;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #2e8b57; /* Verde mais vivo no hover */
+    color: white;
+}
+
+.Sobre h1, .Historia h1, .container h1, .Brasil h1, .Impacto h1, .Responsavel h1, .Links h1, .Galeria h1 {
+    background: #3a5f0b; /* Verde musgo */
+    padding: 15px 25px;
+    margin: 2% 5%;
+    color: white;
+    border-radius: 8px;
+}
+
+.container table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 2% auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container th, .container td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.container th {
+    background-color: #3a5f0b;
+    color: white;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+blockquote {
+    font-style: italic;
+    color: #333;
+    background-color: #dfe5d5; /* Fundo de blockquote com tom de verde claro */
+    border-left: 5px solid #3a5f0b; /* Verde musgo para ecoar o tema ambiental */
+    margin: 2% 5%;
+    padding: 15px 25px;
+    quotes: "“" "”" "‘" "’";
+}
+
+blockquote:before {
+    content: open-quote;
+    font-size: 30px;
+    color: #3a5f0b;
+    margin-right: 10px;
+}
+
+blockquote:after {
+    content: close-quote;
+    font-size: 30px;
+    color: #3a5f0b;
+    margin-left: 10px;
+}
+
+blockquote p {
+    display: inline;
+}
+
+.Links li {
+    margin: 2% 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.Links li:hover {
+    background-color: #e0f2e9; /* Fundo mais claro no hover */
+}
+
+.Links ul {
+    margin: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Sobre li {
+    text-align: left;
+    margin: 1% 5%;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.Sobre li:hover {
+    background-color: #3a5f0b;
+    color: white;
+}
+
+.Galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.Lisboa, .Amsterdam {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 2% 5%;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Lisboa:hover, .Amsterdam:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Lisboa {
+    border-top-left-radius: 15px;
+}
+
+.Amsterdam {
+    border-bottom-left-radius: 15px;
+}
+
+.Lisboa p, .Amsterdam p {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.Lisboa p{
+    margin: 15% 5%;
+}
+
+.Amsterdam p{
+    padding: 10% 5%;
+}
+
+.Lisboa img, .Amsterdam img {
+    width: 50%;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Lisboa img:hover, .Amsterdam img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e0f2e9; /* Fundo verde claro */
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer section p {
+    margin: 5px 0;
+    font-size: 16px;
+}

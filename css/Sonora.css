@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fundo */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Azul claro */
+    color: #004d40; /* Azul escuro */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #00796b; /* Azul médio */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilo do fundo e das seções */
+.Fundo {
+    padding: 20px;
+}
+
+/* Seções */
+.Sobre, .Historia, .Tecnicas, .Brasil, .Impacto, .Responsavel, .Artistas, .Links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+h1 {
+    color: #004d40; /* Azul escuro */
+    padding: 1%;
+}
+
+.Titulo h1 {
+    color: white; /* Branco para o título do cabeçalho */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #b2ebf2; /* Azul claro */
+}
+
+th {
+    background-color: #00796b; /* Azul médio */
+    color: white; /* Branco */
+}
+
+/* Estilo do bloco de citação */
+blockquote {
+    border-left: 4px solid #004d40; /* Azul escuro */
+    background-color: #b2ebf2; /* Azul claro */
+    padding: 1%;
+    margin: 20px 0;
+    color: #004d40; /* Azul escuro */
+}
+
+/* Links */
+a {
+    padding: 1%;
+    color: #00796b; /* Azul médio */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #004d40; /* Azul escuro */
+    color: #e0f7fa; /* Azul claro */
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    padding: 2%;
+}
+
+img {
+    width: 45vh;
+    border-radius: 15px;
+}
