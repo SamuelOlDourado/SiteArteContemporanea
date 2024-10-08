@@ -1,0 +1,192 @@
+header{
+    background-color: black;
+    color: white;
+    font-family: "Arial Black";
+    height: 100%;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Filhao{
+    background-image: url("https://laart.art.br/wp-content/uploads/2020/02/artecontemporaneanobrasil1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Quadrado {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+}
+
+
+h1{
+    font-family: "Arial Black";
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    font-weight: bold;
+    list-style: none;
+}
+
+p{
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.filho1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    text-align:justify;
+    font-family: Arial;
+
+
+}
+
+.Fotos{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.containerCaracteris{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+.Texto1{
+    font-family: Arial;
+    text-align: left;
+    padding: 13px;
+    width: 50%;
+}
+.Texto2{
+    font-family: Arial;
+    text-align: left;
+    width: 50%;
+}
+
+
+.textinho{
+    font-family: Arial;
+    text-align: justify;
+    padding: 13px;
+}
+.text{
+    font-family: Arial;
+    text-align: center;
+}
+
+.Fotos img{
+    border-radius: 15px;
+    height: 100px;
+    max-height: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+.containerCaracteris img{
+    border-radius: 15px;
+    height: 200%;
+    max-height: 200%;
+
+}
+
+.Paifotos{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Paifotos img {
+    border-radius: 40px;
+    height: 90%;
+
+}
+
+.Tataravo img{
+    border-radius: 15px;
+
+}
+.Tataravo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 400%;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerStory{
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: whitesmoke;
+    color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.autores{
+    border-radius: 20px;
+}
+
+.Autora img{
+    height: 200px;
+}
+
+.Autorao1 img{
+    height: 200px;
+}
+p{
+    font-family: Arial;
+    padding: 13px;
+}
+.PaiTexto{
+    display: flex;
+
+}
+
